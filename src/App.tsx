@@ -1,11 +1,8 @@
 import './App.css'
-import SignUp from './sing-up'
 
 function App() {
   return (
-    <>
-      <SignUp />
-    </>
+    <div style={{width: "100vw"}}></div>
   )
 }
 
