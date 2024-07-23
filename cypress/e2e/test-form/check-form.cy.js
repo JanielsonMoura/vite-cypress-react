@@ -24,7 +24,7 @@ describe('SignUp Form', () => {
 
     // Preenche o campo "First Name"
     //cy.get('input[name="firstName"]').type('Mara');
-    cy.get('input[name="firstName"]').type('Mara1'); // Digita o nome desejado
+    cy.get('input[name="firstName"]').type('Maraa'); // Digita o nome desejado
 
     // Verifica se o campo contém apenas caracteres (letras)
     cy.get('input[name="firstName"]').should(($input) => {

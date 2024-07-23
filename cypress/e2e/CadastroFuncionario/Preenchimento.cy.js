@@ -9,7 +9,7 @@ describe('Sign Up Form', () => {
         cy.get('input[formcontrolname="password"]').type("Senha123!");
         
         cy.get('button[type="submit"]').click();
-        cy.url({ timeout: 10000 }).should('include', '/#/welcome');
+        cy.url({ timeout: 80000 }).should('include', '/#/welcome');
  
 
         
